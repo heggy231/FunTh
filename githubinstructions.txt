@@ -1,11 +1,13 @@
 …or create a new repository on the command line
-
-echo # FunTh >> README.md
 git init
-git add README.md
-git commit -m "first commit"
+git add MyFileNameGoesHere.txt
+git commit -m "My Commit Comment goes here"
 git remote add origin https://github.com/heggy231/FunTh.git
+###only do remote add origin the very first time you create git
+##in your folder
 git push -u origin master
+#Origin means me, Master is Github
+----------------------------------------------
 
 …or push an existing repository from the command line
 
