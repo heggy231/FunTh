@@ -9,6 +9,15 @@ git push -u origin master
 #Origin means me, Master is Github
 ----------------------------------------------
 
+...To update your file on gihub after creating your git file
+git add MyFileNameGoesHere.txt
+git commit -m "Put your comment on changes"
+git push 
+##git push only here no need to
+##""-u origin master"" ##no need to put origin master here
+##git remembers this.
+
+
 …or push an existing repository from the command line
 
 git remote add origin https://github.com/heggy231/FunTh.git
